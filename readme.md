@@ -49,7 +49,9 @@ Install the Python dependencies:
 
 If Python 3.10 is installed in a different location, replace that executable
 path with the Python interpreter you use for this project. The requirements
-include Streamlit, TensorFlow/Keras, OpenCV, Pillow, NumPy, and pandas.
+include Streamlit, TensorFlow/Keras, headless OpenCV, Pillow, NumPy, and pandas.
+Headless OpenCV is used because image processing runs on the server and the
+webcam is accessed through Streamlit in the browser.
 
 ## Run the app
 
@@ -124,8 +126,10 @@ path to the model in the sidebar.
 ### Could not initialize face detection
 
 Install dependencies from `requirements.txt` using the same Python interpreter
-used to launch Streamlit. The project pins OpenCV to a version range that
-includes its bundled face-detection cascade.
+used to launch Streamlit. The project uses headless OpenCV (no desktop GUI
+libraries required) with its bundled face-detection cascade. If deploying to
+Streamlit Community Cloud, redeploy after changing dependencies so the cloud
+environment installs `opencv-contrib-python-headless`.
 
 ### No face detected
 

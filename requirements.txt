@@ -1,7 +1,7 @@
 tensorflow
 pandas
 numpy
-opencv-contrib-python>=4.10,<5
+opencv-contrib-python-headless>=4.10,<5
 scikit-learn
 jupyter
 notebook
