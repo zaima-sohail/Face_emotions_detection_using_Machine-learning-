@@ -4,6 +4,9 @@ A Streamlit app for running a trained Keras image-classification model on a
 webcam photo, one uploaded image, or a batch of uploaded images. The app detects
 a face, prepares a grayscale 48 × 48 crop, and displays the model's predicted
 class and output probabilities.
+<img width="1908" height="993" alt="image" src="https://github.com/user-attachments/assets/01c62322-55ec-418a-baa6-804d915c5661" />
+
+
 
 > **Important:** This is an experimental facial-expression classifier. It
 > cannot reliably determine how a person feels. Predictions and confidence
