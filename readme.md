@@ -7,7 +7,7 @@ class and output probabilities.
 <img width="1908" height="993" alt="image" src="https://github.com/user-attachments/assets/01c62322-55ec-418a-baa6-804d915c5661" />
 
 
-
+# live url:https://zaima-sohail-face-emotions-detection-us-face-recognition-ndxaxb.streamlit.app/
 > **Important:** This is an experimental facial-expression classifier. It
 > cannot reliably determine how a person feels. Predictions and confidence
 > values are model outputs, not calibrated measures of emotional state.
